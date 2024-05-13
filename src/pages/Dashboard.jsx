@@ -89,7 +89,7 @@ const Dashboard = () => {
          </div>
             <div className='flex flex-col gap-[20px]'>
                 <p className='ml-[10px] capitalize font-medium text-[20px] text-white text-opacity-70'>projects</p>
-            <div className='bg-[#212023] p-[25px] rounded-lg flex gap-[25px]'>
+            <div className='bg-[#212023] p-[25px] rounded-lg flex gap-[25px] max-sm:flex-col'>
                 <div className='w-[120px] h-[90px] bg-black bg-cover' style={{ backgroundImage: `url(${foto})` }}/>
                 <div className='capitalize text-white flex flex-col'>
                     <p className='font-medium text-[18px] text-white text-opacity-70'>web portofolio</p>
