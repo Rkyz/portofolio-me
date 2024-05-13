@@ -8,7 +8,7 @@ import foto from '../assets/foto.png'
 const Dashboard = () => {
   return (
     <div className='text-white bg-[#141414] overflow-y-auto h-screen '>
-      <div className='flex flex-col mlg:max-w-[50%] h-full py-[60px] px-[60px] w-full mlg:fixed bg-transparent items-start justify-between'>
+      <div className='flex flex-col mlg:max-w-[50%] h-full py-[60px] px-[60px] max-md:py-[30px] max-md:px-[30px] w-full mlg:fixed bg-transparent items-start justify-between'>
         <div className='flex flex-col gap-[25px]'>
             <p className='text-[45px] font-poppins font-medium capitalize max-md:text-[35px]'>hello, i'm rio alamsyah.</p>
             <p className='text-white text-opacity-50'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, ducimus soluta ipsa quam voluptatem commodi tempora corrupti atque voluptas facere quaerat consequuntur deserunt, a tenetur vel debitis ex blanditiis voluptates accusantium tempore culpa veritatis fuga non! Doloribus cupiditate facilis ipsum? Earum architecto sit illo aliquid, sint est temporibus nulla aut, assumenda enim corrupti quasi consequatur labore fugiat eligendi, ipsa fugit!</p>
@@ -59,7 +59,7 @@ const Dashboard = () => {
             </button>
         </div>
       </div>
-      <div className='flex flex-col gap-[20px] mlg:pl-[calc(50%+10px)] max-mlg:pl-[60px] py-[60px] pr-[60px] w-full'>
+      <div className='flex flex-col gap-[20px] mlg:pl-[calc(50%+10px)] max-mlg:pl-[60px] max-md:py-[30px] max-md:px-[30px] py-[60px] pr-[60px] w-full'>
         <div className='flex flex-col gap-[60px]'>
          <div className='flex flex-col gap-[25px]'>
          <p className='ml-[10px] capitalize font-medium text-[20px] text-white text-opacity-70'>experients</p>
