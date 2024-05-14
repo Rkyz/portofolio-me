@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoMdOpen } from "react-icons/io";
 import foto from '../assets/foto.png'
+import foto1 from '../assets/foto1.png'
 
 
 const Dashboard = () => {
@@ -94,6 +95,24 @@ const Dashboard = () => {
                 <div className='capitalize text-white flex flex-col'>
                     <p className='font-medium text-[18px] text-white text-opacity-70'>web portofolio</p>
                     <p className='text-medium text-white text-opacity-50 text-[15px]'>portofolio site build with react and tailwind</p>
+                    <div className='flex items-center gap-[10px] mt-[10px]'>
+                         <div className='py-[8px] px-[15px] capitalize text-[13px] text-opacity-50 text-white rounded-full bg-white bg-opacity-5'>
+                            javascript
+                        </div>
+                         <div className='py-[8px] px-[15px] capitalize text-[13px] text-opacity-50 text-white rounded-full bg-white bg-opacity-5'>
+                            react
+                        </div>
+                         <div className='py-[8px] px-[15px] capitalize text-[13px] text-opacity-50 text-white rounded-full bg-white bg-opacity-5'>
+                            tailwind
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='bg-[#212023] p-[25px] rounded-lg flex gap-[25px] max-sm:flex-col'>
+                <div className='w-[120px] h-[90px] bg-black bg-cover' style={{ backgroundImage: `url(${foto1})` }}/>
+                <div className='capitalize text-white flex flex-col'>
+                    <p className='font-medium text-[18px] text-white text-opacity-70'>web topup</p>
+                    <p className='text-medium text-white text-opacity-50 text-[15px]'>projects topup tampilan frontend yang mengikuti design codashop</p>
                     <div className='flex items-center gap-[10px] mt-[10px]'>
                          <div className='py-[8px] px-[15px] capitalize text-[13px] text-opacity-50 text-white rounded-full bg-white bg-opacity-5'>
                             javascript
