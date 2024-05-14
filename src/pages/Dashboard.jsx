@@ -8,7 +8,7 @@ import foto1 from '../assets/foto1.png'
 
 const Dashboard = () => {
   return (
-    <div className='text-white bg-[#141414] overflow-y-auto mlg:h-screen max-mlg:h-auto '>
+    <div className='text-white bg-[#141414] overflow-y-auto mlg:h-screen max-mlg:h-screen '>
       <div className='flex flex-col mlg:max-w-[50%] max-mlg:gap-[80px] h-full py-[60px] px-[60px] max-md:py-[30px] max-md:px-[30px] w-full mlg:fixed bg-transparent items-start justify-between'>
         <div className='flex flex-col gap-[25px]'>
             <p className='text-[45px] font-poppins font-medium capitalize max-md:text-[35px]'>hello, i'm rio alamsyah.</p>
