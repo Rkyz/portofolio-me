@@ -91,7 +91,7 @@ const Dashboard = () => {
             <div className='flex flex-col gap-[20px]'>
                 <p className='ml-[10px] capitalize font-medium text-[20px] text-white text-opacity-70'>projects</p>
             <div className='bg-[#212023] p-[25px] rounded-lg flex gap-[25px] max-sm:flex-col'>
-                <div className='max-md:w-full w-[120px] max-md:h-full h-[90px] bg-black bg-cover' style={{ backgroundImage: `url(${foto})` }}/>
+                <div className='max-md:w-full w-[120px] max-md:h-[150px] h-[90px] bg-black bg-cover' style={{ backgroundImage: `url(${foto})` }}/>
                 <div className='capitalize text-white flex flex-col'>
                     <p className='font-medium text-[18px] text-white text-opacity-70'>web portofolio</p>
                     <p className='text-medium text-white text-opacity-50 text-[15px]'>portofolio site build with react and tailwind</p>
@@ -109,7 +109,7 @@ const Dashboard = () => {
                 </div>
             </div>
             <div className='bg-[#212023] p-[25px] rounded-lg flex gap-[25px] max-sm:flex-col'>
-                <div className='max-md:w-full w-[120px] max-md:h-full h-[90px] bg-black bg-cover' style={{ backgroundImage: `url(${foto1})` }}/>
+                <div className='max-md:w-full w-[120px] max-md:h-[150px] h-[90px] bg-black bg-cover' style={{ backgroundImage: `url(${foto1})` }}/>
                 <div className='capitalize text-white flex flex-col'>
                     <p className='font-medium text-[18px] text-white text-opacity-70'>web topup</p>
                     <p className='text-medium text-white text-opacity-50 text-[15px]'>projects topup tampilan frontend yang mengikuti design codashop</p>
