@@ -187,7 +187,7 @@ const Dashboard = () => {
                     </div>
                 </div>
             </div>
-            <div className='bg-[#212023] p-[25px] rounded-lg flex gap-[25px] max-sm:flex-col'>
+            <Link to="https://eskul-project.vercel.app/" className='bg-[#212023] p-[25px] rounded-lg flex gap-[25px] max-sm:flex-col'>
                 <div className='max-md:w-full w-[120px] max-md:h-[150px] h-[90px] bg-black bg-cover' style={{ backgroundImage: `url(${foto6})` }}/>
                 <div className='capitalize text-white flex flex-col'>
                     <p className='font-medium text-[18px] text-white text-opacity-70'>eskul management</p>
@@ -204,7 +204,7 @@ const Dashboard = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </Link>
         </div>
         </div>
       <p className='mt-[50px] font-medium text-white font-poppins text-opacity-50'>Loosely designed in Figma and coded in Visual Studio Code by yours truly. Built with React.js and Tailwind CSS, deployed with Vercel. All text is set in the Inter typeface.</p>
