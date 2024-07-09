@@ -154,12 +154,6 @@ const Dashboard = () => {
                     <p className='text-medium text-white text-opacity-50 text-[15px]'>projects kasir tampilan frontend dan backend</p>
                     <div className='flex items-center gap-[10px] mt-[10px]'>
                          <div className='py-[8px] px-[15px] capitalize text-[13px] text-opacity-50 text-white rounded-full bg-white bg-opacity-5'>
-                            javascript
-                        </div>
-                         <div className='py-[8px] px-[15px] capitalize text-[13px] text-opacity-50 text-white rounded-full bg-white bg-opacity-5'>
-                            react
-                        </div>
-                         <div className='py-[8px] px-[15px] capitalize text-[13px] text-opacity-50 text-white rounded-full bg-white bg-opacity-5'>
                             tailwind
                         </div>
                          <div className='py-[8px] px-[15px] capitalize text-[13px] text-opacity-50 text-white rounded-full bg-white bg-opacity-5'>
@@ -172,7 +166,7 @@ const Dashboard = () => {
                 <div className='max-md:w-full w-[120px] max-md:h-[150px] h-[90px] bg-black bg-cover' style={{ backgroundImage: `url(${foto5})` }}/>
                 <div className='capitalize text-white flex flex-col'>
                     <p className='font-medium text-[18px] text-white text-opacity-70'>point of sale</p>
-                    <p className='text-medium text-white text-opacity-50 text-[15px]'>projects kasir tampilan frontend dan backend</p>
+                    <p className='text-medium text-white text-opacity-50 text-[15px]'>projects kasir tampilan frontend dan backend menggunakan inertia</p>
                     <div className='flex items-center gap-[10px] mt-[10px]'>
                          <div className='py-[8px] px-[15px] capitalize text-[13px] text-opacity-50 text-white rounded-full bg-white bg-opacity-5'>
                             javascript
@@ -185,6 +179,9 @@ const Dashboard = () => {
                         </div>
                          <div className='py-[8px] px-[15px] capitalize text-[13px] text-opacity-50 text-white rounded-full bg-white bg-opacity-5'>
                             laravel
+                        </div>
+                         <div className='py-[8px] px-[15px] capitalize text-[13px] text-opacity-50 text-white rounded-full bg-white bg-opacity-5'>
+                            inertia
                         </div>
                     </div>
                 </div>
