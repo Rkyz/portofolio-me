@@ -6,6 +6,7 @@ import foto from '../assets/foto.png'
 import foto1 from '../assets/foto1.png'
 import foto3 from '../assets/foto3.png'
 import foto4 from '../assets/foto4.png'
+import foto5 from '../assets/foto5.png'
 
 
 const Dashboard = () => {
@@ -167,6 +168,27 @@ const Dashboard = () => {
                     </div>
                 </div>
             </Link>
+            <div className='bg-[#212023] p-[25px] rounded-lg flex gap-[25px] max-sm:flex-col'>
+                <div className='max-md:w-full w-[120px] max-md:h-[150px] h-[90px] bg-black bg-cover' style={{ backgroundImage: `url(${foto5})` }}/>
+                <div className='capitalize text-white flex flex-col'>
+                    <p className='font-medium text-[18px] text-white text-opacity-70'>point of sale</p>
+                    <p className='text-medium text-white text-opacity-50 text-[15px]'>projects kasir tampilan frontend dan backend</p>
+                    <div className='flex items-center gap-[10px] mt-[10px]'>
+                         <div className='py-[8px] px-[15px] capitalize text-[13px] text-opacity-50 text-white rounded-full bg-white bg-opacity-5'>
+                            javascript
+                        </div>
+                         <div className='py-[8px] px-[15px] capitalize text-[13px] text-opacity-50 text-white rounded-full bg-white bg-opacity-5'>
+                            react
+                        </div>
+                         <div className='py-[8px] px-[15px] capitalize text-[13px] text-opacity-50 text-white rounded-full bg-white bg-opacity-5'>
+                            tailwind
+                        </div>
+                         <div className='py-[8px] px-[15px] capitalize text-[13px] text-opacity-50 text-white rounded-full bg-white bg-opacity-5'>
+                            laravel
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         </div>
       <p className='mt-[50px] font-medium text-white font-poppins text-opacity-50'>Loosely designed in Figma and coded in Visual Studio Code by yours truly. Built with React.js and Tailwind CSS, deployed with Vercel. All text is set in the Inter typeface.</p>
